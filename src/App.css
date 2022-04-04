@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.muc {
+    background-image: url('https://img.freepik.com/free-photo/beautiful-aerial-shot-forest-enveloped-creepy-mist-fog_181624-2659.jpg?t=st=1649082374~exp=1649082974~hmac=344337f2e394b6edc84c10b7045f19c8bd249bd73605ef12860a76c9066ba9e9&w=1380');
+    border-radius: 1em;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.muc1 {
+    background-color: rgba(0, 255, 255, 0.418);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-seach {
+    border: 0;
+    width: auto;
+    padding-left: 2em;
+    padding-right: 50%;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.input-seach:focus {
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-seach::placeholder {
+    color: #fff;
+}
+
+.input-seach:hover {
+    border: 0;
+}
+
+.wether-icon {
+    margin-left: 43%;
+}
+
+.item1 {
+    border-right: 1px solid rgba(128, 128, 128, 0.459);
 }
